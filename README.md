@@ -9,5 +9,4 @@ A Simple console-based ASCII Art generator written in C++. This project focuses 
 ## Installation
 ### Step 1 : You should be equipped with a Windows OS
 This project is currently built and tested for **Windows OS** only.
----
 ### Step 2 : Install `MSYS2 Compiler` for C/C++
