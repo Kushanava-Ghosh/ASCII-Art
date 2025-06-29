@@ -22,6 +22,7 @@ Run the following command:
 1. ```bash
 pacman -Syu
 ```
+
 2. ```bash
 pacman -S mingw-w64-ucrt-x86_64-opencv
 ```
