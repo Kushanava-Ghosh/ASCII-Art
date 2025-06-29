@@ -19,6 +19,7 @@ This project is currently built and tested for **Windows OS** only.
 ### Step 3 : Install `OpenCV Library for C/C++`
 Initial Installation of **MSYS2** doesn't provide you with **OpenCV** Library.
 Run the following command:
+
 1.
 ```bash
 pacman -Syu
