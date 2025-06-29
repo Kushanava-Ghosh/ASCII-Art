@@ -28,3 +28,5 @@ pacman -Syu
  ```bash
 pacman -S mingw-w64-ucrt-x86_64-opencv
 ```
+
+### Now, you are good to go running this project
