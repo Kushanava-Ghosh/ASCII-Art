@@ -13,10 +13,15 @@ This project is currently built and tested for **Windows OS** only.
 1. **Download the Installer**
     You can visit the official MSYS2 website and download the same
     Link : [Installer](https://github.com/msys2/msys2-installer/releases/download/2024-12-08/msys2-x86_64-20241208.exe) 
-2. **Run the Installer and follow the steps of the installation wizard**
-3. **Install the Required Packages**
-    - In the wizard, choose your desired Installation Folder. Record this directory for later. In most cases, the recommended directory is acceptable. The same applies when you get to setting the start menu shortcuts step. When complete, ensure the Run MSYS2 now box is checked and select Finish. A MSYS2 terminal window will then automatically open.
-    - In this terminal, install the MinGW-w64 toolchain by running the following command:
-      ```bash
-      pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
-      ``` 
+2. **Run the Installer**
+3. **Follow the steps mentioned in the [VS Code C/C++ Manual](https://code.visualstudio.com/docs/languages/cpp#_example-install-mingwx64-on-windows) from Step 2 to 9**
+
+### Step 3 : Install `OpenCV Library for C/C++`
+Initial Installation of **MSYS2** doesn't provide you with **OpenCV** Library.
+Run the following command:
+1. ```bash
+pacman -Syu
+```
+2. ```bash
+pacman -S mingw-w64-ucrt-x86_64-opencv
+```
