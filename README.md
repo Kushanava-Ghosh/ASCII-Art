@@ -21,10 +21,11 @@ Initial Installation of **MSYS2** doesn't provide you with **OpenCV** Library.
 
 Open MSYS2 UCRT64 Shell and Run the following commands:
 
-1.```bash
+```bash
 pacman -Syu
 ```
-2. ```bash
+
+```bash
 pacman -S mingw-w64-ucrt-x86_64-opencv
 ```
 
