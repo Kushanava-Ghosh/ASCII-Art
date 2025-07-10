@@ -60,3 +60,4 @@ pacman -S mingw-w64-ucrt-x86_64-opencv
 |--------|-------|--------|
 | ![Input](https://github.com/user-attachments/assets/5d61b276-458e-4773-bfb8-4f9f5a762998) |  | ![Output](https://github.com/user-attachments/assets/69b493aa-bf00-483e-b249-104b22624f07) |
 
+### Bored of compiling the code? Download the executables and try it out !!!
