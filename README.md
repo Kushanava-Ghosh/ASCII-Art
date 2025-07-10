@@ -31,3 +31,13 @@ pacman -S mingw-w64-ucrt-x86_64-opencv
 
 ### Now, you are good to go running this project
 
+### ASCII Image
+1. Download the file **imgascii.cpp** and run the following command to compile:
+   ```bash
+   g++ imgascii.cpp -I"C:/msys64/ucrt64/include/opencv4" -L"C:/msys64/ucrt64/lib" -lopencv_videoio -lopencv_imgcodecs -lopencv_highgui -lopencv_video -lopencv_imgproc -lopencv_core -o imgascii.exe
+   ```
+2. Run the executable
+   ```bash
+   ./imgascii.exe
+   ```
+
