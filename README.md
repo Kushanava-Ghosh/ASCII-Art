@@ -41,6 +41,10 @@ pacman -S mingw-w64-ucrt-x86_64-opencv
    ./imgascii.exe
    ```
 #### Sample Image Transformation
-<img width="1798" height="1804" alt="image" src="https://github.com/user-attachments/assets/d1d1a325-c8aa-4888-9700-b93ed56a9721" /> -> <img width="1317" height="578" alt="image" src="https://github.com/user-attachments/assets/a1b6776f-65f0-43ff-bce4-e7f1c639a4f6" />
+<p align="center">
+  <img width="300" alt="image1" src="https://github.com/user-attachments/assets/d1d1a325-c8aa-4888-9700-b93ed56a9721" />
+  &nbsp;→&nbsp;
+  <img width="300" alt="image2" src="https://github.com/user-attachments/assets/a1b6776f-65f0-43ff-bce4-e7f1c639a4f6" />
+</p>
 
 
