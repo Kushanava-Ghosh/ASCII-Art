@@ -32,7 +32,7 @@ pacman -S mingw-w64-ucrt-x86_64-opencv
 ### Now, you are good to go running this project
 
 ### ASCII Image
-1. Download the file **imgascii.cpp** and run the following command to compile:
+1. Download the file **imgascii.cpp** and run the following command to compile **(Make sure to check the path of msys64 folder)**:
    ```bash
    g++ imgascii.cpp -I"C:/msys64/ucrt64/include/opencv4" -L"C:/msys64/ucrt64/lib" -lopencv_videoio -lopencv_imgcodecs -lopencv_highgui -lopencv_video -lopencv_imgproc -lopencv_core -o imgascii.exe
    ```
@@ -45,4 +45,18 @@ pacman -S mingw-w64-ucrt-x86_64-opencv
 |--------|-------|--------|
 | <img width="300" alt="input" src="https://github.com/user-attachments/assets/d1d1a325-c8aa-4888-9700-b93ed56a9721" /> |   | <img width="600" alt="output" src="https://github.com/user-attachments/assets/a1b6776f-65f0-43ff-bce4-e7f1c639a4f6" /> |
 
+### ASCII Video
+1. Download the file **vidascii.cpp** and run the following command to compile **(Make sure to check the path of msys64 folder)**:
+   ```bash
+   g++ vidascii.cpp -I"C:/msys64/ucrt64/include/opencv4" -L"C:/msys64/ucrt64/lib" -lopencv_videoio -lopencv_imgcodecs -lopencv_highgui -lopencv_video -lopencv_imgproc -lopencv_core -o vidascii.exe 
+   ```
+2. Run the executable
+   ```bash
+   ./vidascii.exe
+   ```
+   
+#### Sample Video Transformation
+| Input |   →   | Output  |
+|--------|-------|--------|
+| ![Input](https://github.com/user-attachments/assets/2641303a-4ef5-4732-82a7-dfc3421b631b) |  | ![Output](https://github.com/user-attachments/assets/41dad937-7ebc-4239-a069-d9f0580abee0) |
 
