@@ -58,5 +58,5 @@ pacman -S mingw-w64-ucrt-x86_64-opencv
 #### Sample Video Transformation
 | Input |   →   | Output  |
 |--------|-------|--------|
-| ![Input](https://github.com/user-attachments/assets/2641303a-4ef5-4732-82a7-dfc3421b631b) |  | ![Output](https://github.com/user-attachments/assets/41dad937-7ebc-4239-a069-d9f0580abee0) |
+| [![Input](https://github.com/user-attachments/assets/2641303a-4ef5-4732-82a7-dfc3421b631b)]() |  | [![Output](https://github.com/user-attachments/assets/41dad937-7ebc-4239-a069-d9f0580abee0)]() |
 
